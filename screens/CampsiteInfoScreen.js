@@ -52,7 +52,7 @@ const CampsiteInfoScreen = ({ route }) => {
                         alignItems: 'flex-start',
                         paddingVertical: '5%'
                     }}
-                    readOnly={true}
+                    readonly
                 />
                 <Text style={{ fontSize: 12 }}>{`--${item.author}, ${item.date}`}</Text>
             </View>
